@@ -45,7 +45,7 @@ public class WordLengthHistogram {
 
         for (int i = 1; i < maxCharLength; i++) {
             try {
-                int a = lengthCounts.get(i);
+                lengthCounts.get(i).toString();
             } catch (NullPointerException e) {
                 lengthCounts.put(i, 0);
             }

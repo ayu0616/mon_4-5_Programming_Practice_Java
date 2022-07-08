@@ -1,5 +1,5 @@
 public interface Drawable {
-    // min / max of the 2D world
+    // min/max of the 2D world
     final int minX = 0;
     final int minY = 0;
     final int maxX = 100;
